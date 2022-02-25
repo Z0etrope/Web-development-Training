@@ -1,0 +1,30 @@
+.outer{
+	display: block;
+	margin:auto;
+	background-color: black;
+	height: auto;
+	width:100px;
+	padding: 10px;
+}
+
+.lamp{
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	margin: 10px	 auto;
+
+}
+
+.red{
+	background-color: red;
+}
+
+.green{
+	background-color: green;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+/*flexboxfroggy*/

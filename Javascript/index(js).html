@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS</title>
+	<script type="text/javascript" src="asset/JS/script.js"></script>
+</head>
+<body>
+	<table>
+		<thead>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Name</td>
+				<td> :</td>
+				<td><input id="txtUser" type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td> :</td>
+				<td><input id="pass" type="Password" name="pass"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td> :</td>
+				<td><input id="radioMale" type="radio" name="gender" value="male" /><label for="radioMale">male</label>
+					<input id="radioFemale" type="radio" name="gender" value="female" /><label for="radioFemale">female</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Blood Type</td>
+				<td> :</td>
+				<td>
+					<select id="bloodType">
+						<option value="0">Select Gender</option>
+						<option value="1">A</option>
+						<option value="2">B</option>
+						<option value="3">AB</option>
+						<option value="4">O</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><button onclick="main()">Submit</button><label id="lblError"></label></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

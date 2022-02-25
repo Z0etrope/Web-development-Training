@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery</title>
+	<script type="text/javascript" src="asset/js/jquery.js"></script>
+	<script type="text/javascript" src="asset/js/script.js"></script>
+</head>
+<body>
+	<table>
+		<thead>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Name</td>
+				<td> :</td>
+				<td><input id="txtUser" type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td> :</td>
+				<td><input id="pass" type="Password" name="pass"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td> :</td>
+				<td><input class="rbGender" type="radio" name="gender" value="male" /><label for="radioMale">male</label>
+					<input class="rbGender" type="radio" name="gender" value="female" /><label for="radioFemale">female</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Blood Type</td>
+				<td> :</td>
+				<td>
+					<select id="bloodType">
+						<option value="0">Select Gender</option>
+						<option value="1">A</option>
+						<option value="2">B</option>
+						<option value="3">AB</option>
+						<option value="4">O</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><button id="btnClick">Submit</button><label id="lblError"></label></td>
+			</tr>
+			<div id="content">
+			   <div value="1">1</div>
+			   <div value="2">2</div>
+			   <div value="1">3</div>
+			   <div value="2">4</div>
+			</div>
+		</tbody>
+	</table>
+</body>
+</html>

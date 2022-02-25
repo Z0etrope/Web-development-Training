@@ -1,0 +1,23 @@
+.kotak{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	display: inline-block;
+}
+
+.lingkaran{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	border-radius: 100px;
+}
+
+.ketupat{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	transform: rotate(90deg);
+}
+
+
+
